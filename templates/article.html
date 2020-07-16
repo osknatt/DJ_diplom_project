@@ -1,0 +1,9 @@
+{%extends "base.html"%}
+
+{%block content%}
+<h1>{{article.name}}</h1>
+<p>{{article.description}}</p>
+{%for product in product_list%}
+<h3><a href="/p/{{product.slug}}">{{product.name}}</a></h3>
+{%endfor%}
+{%endblock%}

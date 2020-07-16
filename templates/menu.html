@@ -1,0 +1,16 @@
+<div class="menu">
+    <div class="menu_item"><a href="/">Just simple shop</a></div>
+    <div class="menu_item"><a href="/cart">Cart</a></div>
+    <div class="menu_item"><a href="/login">Log in</a></div>
+</div>
+{%if categories%}
+<div class="categories">
+    <ul>
+        <li>Categories</li>
+        {%for category in categories%}
+        <li><a href="/c/{{category.slug}}">{{category.name}}</a></li>
+        {%endfor%}
+    </ul>
+
+</div>
+{%endif%}

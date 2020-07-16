@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Just simple shop</title>
+    <style>
+    .menu{display:flex}
+    .menu_item{width:33.33%}
+    .articles{display:flex}
+    .articles_item{width:33.33%}
+    .container{margin-top:50px}
+    .categories li{display:inline-block}
+    </style>
+</head>
+<body>
+{%include "menu.html"%}
+<div class="container">
+{%block content%}{%endblock%}
+</div>
+</body>
+</html>
