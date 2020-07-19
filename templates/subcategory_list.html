@@ -1,0 +1,8 @@
+{%extends "base.html"%}
+
+{%block content%}
+<h1>Subcategories</h1>
+{%for sub in subcategories%}
+<h3><a href="/s/{{sub.slug}}">{{sub.name}}</a></h3>
+{%endfor%}
+{%endblock%}

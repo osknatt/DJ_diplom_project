@@ -1,7 +1,25 @@
 <div class="menu">
     <div class="menu_item"><a href="/">Just simple shop</a></div>
-    <div class="menu_item"><a href="/cart">Cart</a></div>
-    <div class="menu_item"><a href="/login">Log in</a></div>
+    <div class="menu_item">
+        {% with total_items=cart|length %}
+          {% if cart|length > 0 %}
+            Your cart:
+            <a href="{% url "cart:cart_detail" %}">
+              {{ total_items }} item{{ total_items|pluralize }},
+              {{ cart.get_total_price }} RUB
+            </a>
+          {% else %}
+            Your cart is empty.
+          {% endif %}
+        {% endwith %}
+    </div>
+    <div class="menu_item">
+        {% if request.user.is_authenticated %}
+            {{request.user}} / <a href="{% url "logout" %}">Log Out</a>
+        {% else %}
+            <a href="/signup">Sign Up</a> / <a href="/login">Log In</a>
+        {%endif%}
+    </div>
 </div>
 {%if categories%}
 <div class="categories">
