@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4131301e-6408-4f45-b5aa-dcbebdf0486a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,8 +43,8 @@
       <recent name="C:\Users\natal\Desktop\Python\4_Django\10_Дипломная работа\my_shop\my_shop" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\natal\Desktop\Python\4_Django\10_Дипломная работа\my_shop\templates" />
       <recent name="C:\Users\natal\Desktop\Python\4_Django\10_Дипломная работа\my_shop" />
+      <recent name="C:\Users\natal\Desktop\Python\4_Django\10_Дипломная работа\my_shop\templates" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -75,5 +69,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595152974523" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1596390646709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1596390646709" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/orders/urls.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

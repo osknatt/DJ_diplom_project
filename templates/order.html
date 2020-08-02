@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Order №{{ids}}</h1>
+{% for item in items %}
+<p>{{ item.product }} / {{ item.quantity }} / {{ item.price }}</p>
+{% endfor %}
+
+{% endblock %}
