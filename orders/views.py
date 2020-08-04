@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
 from .models import Order, OrderItem
 from cart.cart import Cart
+from django.contrib.auth.decorators import login_required
 
-
+@login_required(login_url='/login/')
 def order_create(request):
     cart = Cart(request)
     if request.method == 'POST':
